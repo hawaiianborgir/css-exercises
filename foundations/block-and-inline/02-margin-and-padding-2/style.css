@@ -7,11 +7,13 @@ body {
   width: 400px;
   background: #fff;
   margin: 16px auto;
+  /* solution */
   padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  /* solution */
   font-size: 16px;
   margin: 8px;
   padding: 8px;
@@ -19,13 +21,14 @@ body {
 
 .content {
   background: #e3f4ff;
+  /* solution */
   margin: 8px;
   padding: 16px 8px;
 }
 
 .button-container {
   background: #e3f4ff;
-  margin: 8px;
+  /* solution */
   padding: 8px;
   text-align: center;
 }
@@ -33,7 +36,9 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
+  /* solution */
   display: block;
+  /* we don't have to set width for the centering because a block element without a width will stretch to fill 100% of its parent by default */
   margin: 0 auto;
   padding: 8px 24px;
 }
