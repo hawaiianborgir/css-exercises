@@ -24,3 +24,33 @@ img {
   justify-content: center;
   background: #eee;
 }
+
+/* SOLUTION */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+}
+
+.picture {
+  display: flex;
+  gap: 52px;
+}
+
+.img {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  gap: 7px;
+}
+
+.text {
+  text-align: center;
+}
+
+/* .main-container, .title, .picture, img, .text{border: 2px solid red;} */
+/* this is a debug border, very useful */
+
+/* The main solution is way simpler, that's the gap of my current skill. */
