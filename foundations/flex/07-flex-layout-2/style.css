@@ -27,3 +27,67 @@ body {
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
 }
+
+/* SOLUTION */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  font-size: 24px;
+  color: white;
+  text-decoration: none;
+}
+
+/* ALL */
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+/* HEAD */
+.header {
+  font-size: 32px;
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+}
+
+/* MIDDLE */
+.middle {
+  flex:1 1 auto; 
+  /* the solution uses flex:1 1 0, meaning that the size will be the size of its content. I like mine better though, also there's no restriction about this in readme. */
+  display: flex;
+}
+
+.sidebar{
+  flex: 0 0 300px;
+  /* the solution is not following the readme instruction. It mistook the sidebar width with the card width. */
+  padding: 16px;
+}
+
+.textbox {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 48px;
+  gap: 20px;
+}
+
+.card {
+  flex:0 0 150px;
+  font-size: xx-small;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  padding: 10px;
+}
+
+/* FOOTER */
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Overall, good job me. I think you did better than the solution. */
